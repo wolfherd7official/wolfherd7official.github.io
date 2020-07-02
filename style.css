@@ -1,0 +1,88 @@
+/* font-family: 'Oswald', sans-serif;  <------ Font za sajt */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #333333;
+    padding: 0%;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    line-height: 1.6;
+    color: white;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+#dugmici {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,0.7);
+}
+
+#dugmici ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+#dugmici ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+#dugmici ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+
+#dugmici ul li a:hover {
+    color: red;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+section h1 {
+    font-size: 4rem;
+}
+
+section p {
+    font-size: 1.5rem;
+}
+
+#Home {
+    background: url(https://cdn.discordapp.com/attachments/593855641093931013/726775466043899914/22-1.png) no-repeat center center/cover;
+}
+
+#About {
+    background: url(https://images6.alphacoders.com/463/463420.jpg) no-repeat center center/cover;
+}
+
+#Service {
+    background: url(https://wallpapermemory.com/uploads/709/white-wolf-wallpaper-1080p-117740.jpg) no-repeat center center/cover;
+}
+
+#Contact {
+    background: url(https://cdn.discordapp.com/attachments/705517731386228796/726817737699098715/350238.png) no-repeat center center/cover;
+}
